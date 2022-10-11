@@ -48,6 +48,8 @@ h1{
 
 .pic{
     overflow-x: scroll;
+    /*centered images*/
+    padding-left: 150px;
 }
 
 @media screen and(min-width: 200px) {
