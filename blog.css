@@ -39,12 +39,6 @@ body{
     border: 2px solid white;
 }
 
-/* .tabs a{
-    color: white;
-}
-.tabs a:hover{
-    color:aqua;
-} */
 
 @media screen and (max-height: 100px) {
     .tabs {
