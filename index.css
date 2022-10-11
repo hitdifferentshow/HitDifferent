@@ -25,6 +25,10 @@ a {
     color: aliceblue;
     text-decoration: none;
 }
+/*create a color hover*/
+a :hover{
+    color: rgb(172, 56, 127);
+}
 
 @media screen and(min-width: 200px) {
     h1, a{

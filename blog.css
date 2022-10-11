@@ -1,7 +1,7 @@
 body{
     background-color: aliceblue;
     background-image: url("Images/hearts&magic.gif"); 
-    background-size: 100%;
+    background-size: 150%;
     background-repeat: cover no-repeat;
 }
 
@@ -13,6 +13,7 @@ body{
 }
 
 .blogContainer >* {
+    /*changed color*/
     border: 2px solid rgb(172, 56, 127);
     background-color: rgb(172, 56, 127);
     padding: 15px;
@@ -27,9 +28,12 @@ a li{
 .banner{
     display: grid;
     color: white;
-    border: 2px solid white;
+    /*made border transparent*/
+    border: 2px solid transparent;
     text-align: center;
     overflow-x: scroll;
+    /*added padding*/
+    padding-left: 30px;
 }
 
 .banner > * {
@@ -63,22 +67,25 @@ a li{
     position: absolute;
     /* bottom: -35%; */
     font-size: 15px;
+    /*added paddinng*/
+    padding-left: 30px;
 }
 
-
+/*made border transparent*/
 .blogPost > *{
-    color: green;
-    border: 2px solid green;
+    color: white;
+    border: 2px solid transparent;
 }
 
+/*changed header color*/
 
 #header1 {
-    color: aliceblue;
+    color: rgb(172, 56, 127);
     text-decoration: underline;
 }
 
 #header2 {
-    color: aliceblue;
+    color: rgb(172, 56, 127);
     text-decoration: underline;
 }
 
