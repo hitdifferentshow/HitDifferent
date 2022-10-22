@@ -1,37 +1,33 @@
 body{
-    background-color: mediumorchid;
-    background-image: url("Images/hearts&magic.gif");
-    background-size: 100%;
+    background-image: url("Website-Banner.png");
+    background-size: 95%;
     background-repeat: cover no-repeat;
+    background-color: rgb(24, 20, 46);
 }
 
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:aliceblue;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 100px;
-}
-
-.tabs{
-    float: left;
-    font-family: 'Franklin Gothic Medium';
-    padding-left: 35%;
+.buttons{
+    display: flex;
     list-style: none;
-    font-size: 85px;
+    width: 40px;    
 }
 
-a {
-    color: aliceblue;
+.buttons >* {
+    padding-left: 245px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 255%;
+}
+
+.buttons a{
+    color:white;
     text-decoration: none;
 }
-/*create a color hover*/
-a :hover{
-    color: rgb(77, 56, 172);
+
+.buttons a li:hover{
+    color: rgb(0, 56, 209);
 }
 
-@media screen and(min-width: 200px) {
-    h1, a{
-        font-size: 40px;
+@media screen and(min-width: 300px) {
+    .buttons, .buttons >*{
+        font-size: 10px;
     }
 }
