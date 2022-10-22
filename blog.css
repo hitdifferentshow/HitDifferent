@@ -4,31 +4,33 @@ h1{
 }
 
 body{
-    background-image: url("Images/hearts&magic.gif");
-    background-size: 100%;
+    background-image: url("water.gif");
     background-repeat: cover no-repeat;
 }
 
 .buttons{
     display: flex;
     list-style: none;
-    width: 200px;
+    padding-left: 385px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 195%;
     text-decoration: none;
 }
 
-.buttons > *{
+/* .buttons > *{
     border: 2px solid rgb(172, 56, 127);
     background-color: rgb(172, 56, 127);
     /* padding-left: 295px;
-    margin: 10px; */
+    margin: 10px; 
     text-decoration: none;
-}
+}*/
 
 .buttons a{
     float: left;
     color:white;
     padding: 25px;
     margin: 15px;
+    text-decoration: none;
 }
 
 .buttons a li:hover{
