@@ -9,6 +9,32 @@ body{
     background-repeat: cover no-repeat;
 }
 
+.buttons{
+    display: flex;
+    list-style: none;
+    width: 200px;
+    text-decoration: none;
+}
+
+.buttons > *{
+    border: 2px solid rgb(172, 56, 127);
+    background-color: rgb(172, 56, 127);
+    /* padding-left: 295px;
+    margin: 10px; */
+    text-decoration: none;
+}
+
+.buttons a{
+    float: left;
+    color:white;
+    padding: 25px;
+    margin: 15px;
+}
+
+.buttons a li:hover{
+    color: rgb(77, 56, 172);
+}
+
 .post{
     display: grid;
     color: aliceblue;

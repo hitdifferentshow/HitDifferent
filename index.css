@@ -27,7 +27,7 @@ a {
 }
 /*create a color hover*/
 a :hover{
-    color: rgb(172, 56, 127);
+    color: rgb(77, 56, 172);
 }
 
 @media screen and(min-width: 200px) {
